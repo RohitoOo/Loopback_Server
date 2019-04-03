@@ -21,6 +21,10 @@
       "type": "string",
       "required": true
     },
+    "server_id": {
+      "type": "string",
+      "required": true
+    },
     "username": {
       "type": "string"
     }

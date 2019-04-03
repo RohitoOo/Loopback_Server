@@ -24,5 +24,9 @@
   "user": {
     "dataSource": "cloud",
     "public": true
+  },
+  "servers": {
+    "dataSource": "cloud",
+    "public": true
   }
 }
