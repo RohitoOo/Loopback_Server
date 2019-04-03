@@ -8,10 +8,13 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint"
+    "client": "cd client_src && npm start",
+    "posttest": "npm run lint",
+    "dev": "concurrently 'npm start' 'npm run client' "
   },
   "dependencies": {
     "compression": "^1.0.3",
+    "concurrently": "^4.1.0",
     "cors": "^2.5.2",
     "helmet": "^3.10.0",
     "loopback": "^3.22.0",
